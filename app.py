@@ -34,7 +34,7 @@ user.username = "foxin"
 ##add the created object to the session
 session.add(user)
 session.commit()
-
+#close the session and the connection to database
 session.close()
 
     
